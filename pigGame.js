@@ -116,7 +116,7 @@ btnholdEL.addEventListener('click', function () {
 
     //   diceEL.classList.add('hidden');
     // }
-    if (score[activeplayer] >= 20) {
+    if (score[activeplayer] >= 50) {
       playing = false;
       document.querySelector(`#name--${activeplayer}`).textContent = `Player ${activeplayer + 1} has won the game🥳🥳`;
       //  document.querySelector(`#name--${activeplayer}`).style.backgroundColor = "white";
